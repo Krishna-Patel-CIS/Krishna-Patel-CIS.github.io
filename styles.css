@@ -1,3 +1,12 @@
+.headshot {
+    border-radius: 50%;        /* Makes the image round */
+    width: 150px;              /* Set a smaller width for the image */
+    height: 150px;             /* Set a fixed height for the image */
+    object-fit: cover;         /* Ensures the image stays within the circle */
+    display: block;            /* Forces the image to be treated as a block-level element */
+    margin: 0 auto 15px auto;  /* Centers the image and adds space below */
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
